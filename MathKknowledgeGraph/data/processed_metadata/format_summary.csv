@@ -1,0 +1,22 @@
+﻿Extension,Count,Total Size (MB),Parser Required
+.css,41,6.51,None (exclude)
+.djvu,1,13.57,djvulibre / pydjvu
+.gif,72,0.43,None (image asset)
+.html,775,36.73,BeautifulSoup4 + Trafilatura
+.ico,6,0.01,None (exclude)
+.jpg,64,2.72,Tesseract OCR (if needed)
+.js,467,127.02,None (exclude)
+.json,842,24.67,Python json module
+.map,7,8.98,None (exclude)
+.pdf,329,1444.22,PyMuPDF (fitz) + OCR fallback
+.png,117,2.89,Tesseract OCR (if needed)
+.r,2,0.00,None (resource file)
+.srt,40,2.46,pysrt
+.svg,71,0.37,BeautifulSoup XML parser
+.ttf,30,7.86,None (exclude)
+.txt,1,0.51,Built-in text reader
+.vtt,80,4.66,webvtt-py
+.woff,150,2.70,None (exclude)
+.woff2,18,1.52,None (exclude)
+.xml,29,0.25,lxml
+[no extension],12,0.00,Manual inspection
